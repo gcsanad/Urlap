@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urlap</title>
+    <link rel="stylesheet" href="stilus.css">
+</head>
+<body>
+    <h2>Alapadatok</h2><br>
+        <form action="">
+            <fieldset>
+                <p>Teljes neved
+                    <input type="name" name="nevek" id="neved">
+                </p>
+                <p>Nemed
+                    <label for="ferfi"><input type="radio" name="ferfi" value="ferfi" id="nemed">Férfi</label>
+                    <label for="no"><input type="radio" name="no" value="no" id="nemed">Nő</label>
+                </p>
+                <p>Email
+                    <input type="email" name="email" id="email">
+                </p>
+                <p>Telefonszám
+                    <input type="tel" name="phone" id="phone" pattern="[0-9]{4}[0-9]{3}[0-9]{4}">
+                </p>
+                <p>Levelezés<br>alapértelmezett nyelve
+                        <select name="orszag" id="orszag">
+                            <option value="magyar">Magyar</option>
+                            <option value="nemet">Német</option>
+                            <option value="szlovak">Szlovák</option>
+                            <option value="angol">Angol</option>
+                            <option value="orosz">Orosz</option>
+                        </select>
+                    </label>
+                </p>
+                <p>Születési idő
+                    <input type="date" name="" id="">
+
+                </p>
+                <input type="submit" name="mentes" id="mentes" value="Mentés">
+            </fieldset>
+        </form>
+</body>
+</html>
