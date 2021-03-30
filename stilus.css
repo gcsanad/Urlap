@@ -1,6 +1,6 @@
 fieldset{
     background-color: lightgray;
-    width: 10cm;
+    width: 15cm;
 }
 
 #mentes {
@@ -8,3 +8,50 @@ fieldset{
     color: white;
 }
 
+#neved {
+    margin-left: 3cm;
+    height: 1cm;
+    width: 6cm;
+}
+
+#nemed {
+    margin-left: 4cm;
+}
+
+#email {
+    margin-left: 41mm;
+    height: 1cm;
+    width: 6cm;
+}
+
+#phone {
+    margin-left: 1.5cm;
+    height: 1.1cm;
+    
+}
+
+#phone1 {
+    height: 1cm;
+    width: 6cm;
+}
+
+#nyelv {
+    margin-left: 1.3cm;
+    width: 6cm;
+    height: 1cm
+}
+
+#ev {
+    margin-left: 2.93cm ;
+    height: 1cm;
+}
+
+#ho {
+    height: 1cm;
+    margin-left: 2mm;
+}
+
+#nap {
+    height: 1cm;
+    margin-left: 2mm;
+}
