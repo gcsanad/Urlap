@@ -1,8 +1,10 @@
 fieldset{
     background-color: lightgray;
+    width: 10cm;
 }
 
 #mentes {
     background-color: orange;
     color: white;
 }
+
